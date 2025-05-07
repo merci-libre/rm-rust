@@ -283,7 +283,6 @@ fn checkmode(
     /*
      * Deletion happens here.
      */
-    eprintln!("mode that is being matched: {}", mode);
     match mode {
         0 => {
             // force deletion.
